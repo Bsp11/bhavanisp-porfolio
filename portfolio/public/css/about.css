@@ -1,0 +1,100 @@
+
+
+
+@font-face{
+  font-family: 'abc';
+  src: url('/public/fonts/Roboto-Medium.ttf');
+}
+
+body{
+  padding: 0vw;
+  margin: 0vw;
+  font-family:'abc';
+  width: 100%;
+  background: #323334; 
+}
+
+
+  .self{
+    width:100%;
+    margin-bottom: 14%;
+    background: #323334;
+    display: grid;
+    grid: auto / auto auto;
+  }
+
+  .myself{
+    width:100%;
+    margin: auto;
+    margin-left: 20%;
+  }
+
+  .myself img{
+    width: 60%;
+    height: 65%;
+    box-shadow: 5px 5px 5px 7px rgb(37, 37, 37);
+  }
+
+  .about-myself{
+      margin-top: 10%;
+      margin-left: 10%;
+      font-size: 3vw;
+      color: white;
+  }
+
+  .description{
+      font-size: 1.3vw;
+      color: white;
+  }
+
+
+  @media screen and (max-width: 480px) {
+  
+
+    @font-face{
+      font-family: 'abc';
+      src: url('/public/fonts/Roboto-Medium.ttf');
+    }
+    
+    body{
+      padding: 0vw;
+      margin: 0vw;
+      font-family:'abc';
+      width: 100%;
+      background: #323334; 
+    }
+    
+
+.self{
+  width:100%;
+  margin-top: 16%;
+  margin-bottom: 16%;
+  background: #323334;
+  display: grid;
+  grid: auto / auto;
+}
+
+.myself{
+  width:100%;
+  margin-left: 10%;
+}
+
+.myself img{
+  width: 80%;
+  height: 85%;
+  box-shadow: 5px 5px 5px 7px rgb(37, 37, 37);
+}
+
+.about-myself{
+    margin-right: 12%;
+    margin-top: 10%;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+}
+
+.description{
+    font-size: 2.3vw;
+    color: white;
+}
+  }

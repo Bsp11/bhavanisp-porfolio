@@ -1,0 +1,432 @@
+@font-face{
+  font-family: 'abc';
+  src: url('/public/fonts/Roboto-Medium.ttf');
+}
+
+body{
+  padding: 0vw;
+  margin: 0vw;
+  font-family:'abc';
+  background: rgb(50, 51, 52);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: rgb(255, 238, 0);
+  
+}
+.active a{
+  color: rgb(255, 238, 0);
+}
+
+.project-container{
+    width: 100%;
+    display: grid;
+    grid: auto auto /auto auto auto;
+   } 
+
+
+  .project-1 .p1{
+    margin-left: 21%;
+   
+  }
+  
+.project-1 .p1 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+  
+  .project-1 .p1 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+   
+  }
+  
+  .project-1 .t1{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+    
+  }
+
+  .project-1 .t1:hover {
+    color: rgb(255, 238, 0);
+  }
+
+  .project-2 .p2{
+    margin-left: 21%;
+  }
+
+.project-2 .p2 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+  
+  .project-2 .p2 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+  }
+  
+  .project-2 .t2{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+  }
+
+  .project-2 .t2:hover {
+    color: rgb(255, 238, 0);
+  }
+
+  .project-3 .p3{
+    margin-left: 21%;
+   
+  }
+  
+.project-3 .p3 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+
+  .project-3 .p3 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+  }
+  
+  .project-3 .t3{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+    
+  }
+
+  .project-3 .t3:hover {
+    color: rgb(255, 238, 0);
+  }
+
+   .project-4 .p4{
+    margin-left: 21%;
+    margin-top: 20%;
+    
+  }
+
+.project-4 .p4 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+
+  
+  .project-4 .p4 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+  }
+  
+  .project-4 .t4{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+  }
+
+  .project-4 .t4:hover {
+    color: rgb(255, 238, 0);
+  }
+
+   .project-5 .p5{
+    margin-left: 21%;
+    margin-top: 20%;
+    
+  }
+
+.project-5 .p5 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+  
+  .project-5 .p5 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+  }
+  
+  .project-5 .t5{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+  }
+
+  .project-5 .t5:hover {
+    color: rgb(255, 238, 0);
+  }
+
+  .project-6 .p6{
+    margin-left: 21%;
+    margin-top: 20%;
+    
+  }
+
+.project-6 .p6 img:hover{
+  box-shadow: 15px 15px 15px 5px rgb(37, 37, 37);
+}
+
+
+  .project-6 .p6 img{
+    width: 20vw;
+    height: 25vw;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+  }
+
+  .project-6 .t6{
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-left: 21%;
+    color: white;
+  }
+
+  .project-6 .t6:hover {
+    color: rgb(255, 238, 0);
+  }
+
+  @media screen and (max-width: 480px) {
+
+
+
+    @font-face{
+      font-family: 'abc';
+      src: url('/public/fonts/Roboto-Medium.ttf');
+    }
+    
+    body{
+      padding: 0vw;
+      margin: 0vw;
+      font-family:'abc';
+      background: rgb(50, 51, 52);
+    }
+    
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    
+    a:hover{
+      color: rgb(255, 238, 0);
+      
+    }
+    .active a{
+      color: rgb(255, 238, 0);
+    }
+    
+    .project-container{
+        width: 100%;
+        display: grid;
+        grid: auto auto auto auto auto auto/auto ;
+       } 
+    
+    
+      .project-1 .p1{
+       margin-left: 20%;
+       
+      }
+      
+    .project-1 .p1 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+      
+      .project-1 .p1 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .5s;
+        transition-timing-function: ease-out;
+       
+      }
+      
+      .project-1 .t1{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 37%;
+        color: white;
+        
+      }
+
+      .project-1 .t1:hover {
+        color: rgb(255, 238, 0);
+      }
+
+      .project-2 .p2{
+        margin-left: 20%;
+        margin-top: 10%;
+      }
+    
+    .project-2 .p2 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+      
+      .project-2 .p2 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .5s;
+        transition-timing-function: ease-out;
+      }
+      
+      .project-2 .t2{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 43%;
+        color: white;
+      }
+
+      .project-2 .t2:hover {
+        color: rgb(255, 238, 0);
+      }
+    
+      .project-3 .p3{
+        margin-left: 20%;
+        margin-top: 10%;
+       
+      }
+      
+    .project-3 .p3 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+    
+      .project-3 .p3 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .5s;
+        transition-timing-function: ease-out;
+      }
+      
+      .project-3 .t3{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 37%;
+        color: white;
+        
+      }
+
+      .project-3 .t3:hover {
+        color: rgb(255, 238, 0);
+      }
+    
+       .project-4 .p4{
+        margin-left: 20%;
+        margin-top: 10%;
+        
+      }
+    
+    .project-4 .p4 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+    
+      
+      .project-4 .p4 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .5s;
+        transition-timing-function: ease-out;
+      }
+      
+      .project-4 .t4{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 34%;
+        color: white;
+      }
+
+      .project-4 .t4:hover {
+        color: rgb(255, 238, 0);
+      }
+    
+       .project-5 .p5{
+        margin-left: 20%;
+        margin-top: 10%;
+        
+      }
+    
+    .project-5 .p5 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+      
+      .project-5 .p5 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+      }
+      
+      .project-5 .t5{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 35%;
+        color: white;
+      }
+
+      .project-5 .t5:hover {
+        color: rgb(255, 238, 0);
+      }
+    
+      .project-6 .p6{
+        margin-left: 20%;
+        margin-top: 10%;
+        
+      }
+    
+    .project-6 .p6 img:hover{
+      box-shadow: 10px 10px 10px 5px rgb(37, 37, 37);
+    }
+    
+    
+      .project-6 .p6 img{
+        width: 60vw;
+        height: 70vw;
+        cursor: pointer;
+        transition-property: box-shadow;
+        transition-duration: .3s;
+        transition-timing-function: ease-out;
+      }
+    
+      .project-6 .t6{
+        font-size: 3vw;
+        margin-top: 6%;
+        margin-left: 41%;
+        color: white;
+      }
+
+      .project-6 .t6:hover {
+        color: rgb(255, 238, 0);
+      }
+  }

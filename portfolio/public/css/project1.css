@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'abc';
+    src: url('/public/fonts/Roboto-Medium.ttf');
+  }
+  
+  body{
+    padding: 0vw;
+    margin: 0vw;
+    font-family:'abc';
+    background: rgb(50, 51, 52);
+  }
+
+  .project1{
+    width: 95%;
+}
+
+.p1{
+    width: 100%;
+    height: 100%;
+    margin-left: 2.8%;
+    margin-bottom: 10%;  
+}
+
+.p1 img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+.last-p1{
+    width: 100%;
+    margin-left: 7.5%;
+    display: grid;
+    grid: auto/auto auto;
+}
+
+.last-p1 img{
+    width: 82%;
+    height: 85%;
+  
+}
+
+.back-icon {
+  width: 100%;
+}
+
+.back-icon img{
+    width: 7vw;
+    height: 7vw;
+    margin-left: 6%;
+    margin-top: 3%;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+   
+  }
+
+  .back-icon img:hover{
+    box-shadow: 5px 5px 5px 5px rgb(37, 37, 37);
+  }
+
+
+@media screen and (max-width: 480px) {
+
+    @font-face{
+        font-family: 'abc';
+        src: url('/public/fonts/Roboto-Medium.ttf');
+      }
+      
+      body{
+        padding: 0vw;
+        margin: 0vw;
+        font-family:'abc';
+        background: rgb(50, 51, 52);
+      }
+    
+      .project1{
+        width: 95%;
+    }
+    
+    .p1{
+        width: 100%;
+        height: 100%;
+        margin-left: 3.5%;
+        margin-bottom: 20%;  
+    }
+    
+    .p1 img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2%;
+    }
+    
+    .last-p1{
+        width: 100%;
+        margin-left: 5%;
+        display: grid;
+        grid: auto/auto auto;
+    }
+    
+    .last-p1 img{
+        width: 92%;
+        height: 95%;
+      
+    }
+
+    .back-icon {
+        width: 100%;
+      }
+      
+      .back-icon img{
+          width: 10vw;
+          height: 10vw;
+          margin-left: 6%;
+          margin-top: 20%;
+          cursor: pointer;
+          transition-property: box-shadow;
+          transition-duration: .3s;
+          transition-timing-function: ease-out;
+         
+        }
+      
+        .back-icon img:hover{
+          box-shadow: 3px 3px 3px 3px rgb(37, 37, 37);
+        }
+
+}

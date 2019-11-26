@@ -1,0 +1,96 @@
+@font-face{
+  font-family: 'abc';
+  src: url('/public/fonts/Roboto-Medium.ttf');
+}
+
+
+body{
+    padding: 0vw;
+    margin: 0vw;
+    font-family:'abc';
+    width: 100%;
+    background: #323334;
+  }
+    .contact{
+      width: 100vw;
+      margin: auto;
+    }
+
+    .heading{
+        font-size: 3vw;
+        color: white;
+        margin-bottom: 8vw;
+        margin-left: 14vw;
+    }
+
+    .contact-container{
+        width: 80vw; 
+        height: 50vw; 
+        margin: auto;
+        display: grid;
+        grid: auto/auto 60%;
+        background: white ;
+        box-shadow: 5px  5px 5px 5px rgb(20, 20, 20);
+      }
+
+    .description-1{
+        font-size: 2vw;
+        color: #323334;
+        margin-left: 15vw;
+        margin-top: 10vw;
+    }
+    .description-2{
+        font-size: 2vw;
+        color: #323334;
+        margin-top: 10vw;
+    }
+
+    @media screen and (max-width: 480px) {
+
+      @font-face{
+        font-family: 'abc';
+        src: url('/public/fonts/Roboto-Medium.ttf');
+      }
+      
+body{
+  padding: 0vw;
+  margin: 0vw;
+  font-family:'abc';
+  width: 100%;
+  background: #323334;
+}
+  .contact{
+    width: 100vw;
+    margin: auto;
+  }
+
+  .heading{
+      font-size: 5vw;
+      color: white;
+      margin-bottom: 8vw;
+      margin-left: 14vw;
+  }
+
+  .contact-container{
+      width: 90vw; 
+      height: 100vw; 
+      margin: auto;
+      display: grid;
+      grid: auto/auto 60%;
+      background: white ;
+      box-shadow: 5px  5px 5px 5px rgb(20, 20, 20);
+    }
+
+  .description-1{
+      font-size: 4vw;
+      color: #323334;
+      margin-left: 15vw;
+      margin-top: 10vw;
+  }
+  .description-2{
+      font-size: 4vw;
+      color: #323334;
+      margin-top: 10vw;
+  }
+
+}
